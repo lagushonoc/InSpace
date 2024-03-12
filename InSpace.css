@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+@font-face {
+    font-family: 'New_Zelek';
+    src: url('fonts/New_Zelek.ttf') format('truetype');
+  }
+  
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* цвет страниц */
+
+/* .home{
+    background-color: #151419;
+} */
+
+.gameBlock{
+    background-color: #000000;
+}
+
+.wrapper{
+    background-image: url(img/space.png);
+}
+
+.wrapper1{
+    background-color: #151419;
+}
+
+/* prevue */
+
+.prevue{
+    height: 50px;
+    display: flex;
+    gap: 60%;
+}
+/* .prevue h2{
+    color: #ffffffca;
+    font-family: 'New_Zelek';
+   
+} */
+.prevue img{
+    margin: 10%;
+    width: 150px;
+}
+
+.nechto img{
+    width: auto;
+    margin-top: 30px;
+}
+
+/* object */
+
+.list_object{
+    display: flex;
+    /* overflow-x: scroll; */
+    overflow-x: auto;
+    height: auto;
+    align-items: center;
+    gap: 5%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.sun img{
+    height: 100vh;
+}
+
+.text {
+    position: absolute;
+    right: 10%;
+    top: 90%;
+    width: 500px;
+  }
+.text p{
+    color: #ffffffd2;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+/* history */
+
+.history-content{
+    display: flex;
+    gap: 3%;
+    padding: 5%;
+}
+
+.block{
+    border-radius: 20px 20px 20px 20px;
+    background: #ffffffdb;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+
+}
+.content h2{
+    /* color: #ffffffca; */
+    font-family: 'New_Zelek';
+    display: flex;
+    
+}
+
+.content p{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.content a{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #1c5b9af3;
+    text-align: center;
+}
+
+/* footer */
+
+.wrapper2{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.information p{
+    font-size: 1.5vw;
+}
+.information2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+
+}
+
+.information2 a{
+    color: #e01616f3;
+}
+.contacts{
+    display: flex;
+    gap: 3%;
+}
+.contacts img{
+    width: 30%;
+}
+
+ /* game */
+
+ .uniry_block iframe{
+    /* outline: 2px solid #000; Чёрная рамка */
+    border: 5px solid #fff;
+ }
+

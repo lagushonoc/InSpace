@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+@font-face {
+    font-family: 'New_Zelek';
+    src: url('fonts/New_Zelek.ttf') format('truetype');
+  }
+  
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: #ffffffd2;
+    text-align: center;
+    font-size: 100%;
+}
+h3{
+    color: #ffffffd2;
+    font-family: 'New_Zelek';
+    /* font-size: 10vw; */
+    padding-left: 3%;
+}
+
+h2{
+    color: #ffffffd2;
+    font-family: 'New_Zelek';
+    /* font-size: 10vw; */
+    padding-left: 3%;
+    /* text-align: right; */
+}
+
+/* цвет страниц */
+.wrapper{
+    background-color: black;
+    /* background-image: url(img/animation-of-the-planet-mercury_qj4vjpb8_thumbnail-1080_01.png); */
+}
+
+/* verh */
+
+.verh{
+    display: flex;
+    justify-content: space-between;
+}
+.verh h1{
+    color: #ffffffd2;
+    font-family: 'New_Zelek';
+    font-size: 10vw;
+}
+.verh a{
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.verh img{
+    height: 10%;
+}
+.verh p{
+    font-size: 60%;
+}
+
+/* informations */
+
+.informations{
+    /* background-image: url(img/animation-of-the-planet-mercury_qj4vjpb8_thumbnail-1080_01.png); */
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.informations img{
+    width: 40%;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 9%;
+    padding-top: 6%;
+}
+
+/* facts */
+
+.facts{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.facts p{
+    text-align: left;
+    width: 70%;
+    padding: 3%;
+}
+.sputnici{
+    padding-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* align-items: flex-end; */
+    /* width: 30%; */
+}
+
+.sputnici img{
+    width: 150%;
+}
+
+.spisok_sputnikov{
+    display: flex;
+
+
+}
+.spisok_sputnikov img{
+    width: 100%;
+}
